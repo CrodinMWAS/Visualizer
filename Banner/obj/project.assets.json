@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hagymasi.gyula\\.nuget\\packages\\": {}
+    "C:\\Users\\nagy.martin.mark\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "O:\\HGy\\Banner\\Banner\\Banner.csproj",
+      "projectUniqueName": "C:\\Users\\nagy.martin.mark\\Documents\\Banner\\Banner\\Banner.csproj",
       "projectName": "Banner",
-      "projectPath": "O:\\HGy\\Banner\\Banner\\Banner.csproj",
-      "packagesPath": "C:\\Users\\hagymasi.gyula\\.nuget\\packages\\",
-      "outputPath": "O:\\HGy\\Banner\\Banner\\obj\\",
+      "projectPath": "C:\\Users\\nagy.martin.mark\\Documents\\Banner\\Banner\\Banner.csproj",
+      "packagesPath": "C:\\Users\\nagy.martin.mark\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nagy.martin.mark\\Documents\\Banner\\Banner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hagymasi.gyula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nagy.martin.mark\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

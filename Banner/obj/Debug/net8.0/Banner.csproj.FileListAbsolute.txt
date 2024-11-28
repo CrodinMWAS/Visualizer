@@ -19,3 +19,11 @@ O:\HGy\Banner\Banner\obj\Debug\net8.0\Banner.csproj.CoreCompileInputs.cache
 O:\HGy\Banner\Banner\obj\Debug\net8.0\Banner.dll
 O:\HGy\Banner\Banner\obj\Debug\net8.0\refint\Banner.dll
 O:\HGy\Banner\Banner\obj\Debug\net8.0\Banner.pdb
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\Banner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\Banner.AssemblyInfoInputs.cache
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\Banner.AssemblyInfo.cs
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\Banner.csproj.CoreCompileInputs.cache
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\Banner.sourcelink.json
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\Banner.dll
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\refint\Banner.dll
+C:\Users\nagy.martin.mark\Documents\Banner\Banner\obj\Debug\net8.0\Banner.pdb

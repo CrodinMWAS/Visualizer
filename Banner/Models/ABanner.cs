@@ -17,12 +17,25 @@ namespace Banner.Models
         const String MSG_ERROR_ARG = "Nem megengedett argumentum!";
         private Color[,] pixel;
         private Color backgroundColor;
+        public void Fill(Color fillColor)
+        {
+
+        }
 
         protected ABanner(int rowNum, int columnNum)
         {
             if (IsOutOfBounds(rowNum, columnNum))
                 throw new ArgumentException(MSG_ERROR_ARG + $"[ABanner: {rowNum}]");
-            pixel[rowNum, columnNum] = new();
+
+            pixel = new Color[rowNum, columnNum];
+
+            for (int rowIndex = 0; rowIndex < rowNum; rowIndex++)
+            {
+                for (int columnIndex = 0; columnIndex < columnNum; columnIndex++)
+                {
+                    pixel[rowIndex, columnIndex] = backgroundColor;
+                }
+            }
         }
 
         private static bool IsOutOfBounds(int rowNum, int columnNum)
