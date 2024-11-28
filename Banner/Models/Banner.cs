@@ -7,14 +7,33 @@ using System.Threading.Tasks;
 
 namespace Banner.Models
 {
+
+    public class UjabbBanner : Banner
+    {
+        public UjabbBanner()
+        {
+            HelpFiller(Color.Red);
+        }
+    }
     public class Banner : ABanner, IBannerOperations
     {
         public void Clear()
         {
-            throw new NotImplementedException();
+
+            HelpFiller(BackgroundColor);
         }
 
         public void DrawLine(int rowIndex, Color drawingColor)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Fill(Color fillColor)
+        {
+            HelpFiller(fillColor);
+        }
+
+        public void ReplaceColor(Color oldColor, Color newColor)
         {
             throw new NotImplementedException();
         }
@@ -35,6 +54,11 @@ namespace Banner.Models
         }
 
         public void ShiftToRight(Color fillColor)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IBannerOperations.DrawLine(int lineIndex, Color drawingColor, IBannerOperations.Orientation lineOrientation)
         {
             throw new NotImplementedException();
         }

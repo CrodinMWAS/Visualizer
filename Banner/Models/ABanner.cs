@@ -17,23 +17,24 @@ namespace Banner.Models
         const String MSG_ERROR_ARG = "Nem megengedett argumentum!";
         private Color[,] pixel;
         private Color backgroundColor;
-        public void Fill(Color fillColor)
-        {
 
-        }
-
-        protected ABanner(int rowNum, int columnNum)
+        public ABanner(int rowNum, int columnNum)
         {
             if (IsOutOfBounds(rowNum, columnNum))
                 throw new ArgumentException(MSG_ERROR_ARG + $"[ABanner: {rowNum}]");
 
             pixel = new Color[rowNum, columnNum];
 
-            for (int rowIndex = 0; rowIndex < rowNum; rowIndex++)
+            HelpFiller(BackgroundColor);
+        }
+
+        public void HelpFiller(Color fillColor)
+        {
+            for (int rowIndex = 0; rowIndex < pixel.GetLength(0); rowIndex++)
             {
-                for (int columnIndex = 0; columnIndex < columnNum; columnIndex++)
+                for (int columnIndex = 0; columnIndex < pixel.GetLength(1); columnIndex++)
                 {
-                    pixel[rowIndex, columnIndex] = backgroundColor;
+                    pixel[rowIndex, columnIndex] = fillColor;
                 }
             }
         }
@@ -44,7 +45,7 @@ namespace Banner.Models
                             || columnNum > MAX_COLUMN_NUM || columnNum < MIN_COLUMN_NUM;
         }
 
-        protected ABanner() : this(MIN_ROW_NUM, MIN_COLUMN_NUM)
+        public ABanner() : this(MIN_ROW_NUM, MIN_COLUMN_NUM)
         {
         }
 

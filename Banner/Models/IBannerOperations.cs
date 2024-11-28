@@ -11,6 +11,12 @@ namespace Banner.Models
     internal interface IBannerOperations
     {
         enum Orientation { Horizontally, Vertically }
+        /// <summary>
+        /// A BackgroundColor színnel festi át a teljes kijelzőt.
+        /// </summary>
+        public void Clear();
+
+        public void Fill(Color fillColor);
 
         /// <summary>
         /// 
